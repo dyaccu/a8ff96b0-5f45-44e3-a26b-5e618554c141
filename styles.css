@@ -181,3 +181,65 @@ body {
     }
 
 }
+
+/* Media Queries para dispositivos más pequeños */
+@media (max-width: 550px) {
+    body {
+        height: auto;
+        padding: 20px;
+    }
+
+    .flip-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .certificate-front-arrow,
+    .certificate-back-arrow {
+        width: 50px;
+        top: auto;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .certificate-back-arrow {
+        left: 10px;
+    }
+
+    .buttonLink {
+        font-size: 12px;
+        padding: 0.4em 1.5em;
+    }
+
+    .certificate-front-side-url {
+        font-size: 8px;
+        right: -60px;
+        top: 120px;
+    }
+
+    /* Ajuste para la URL vertical */
+    .certificate-front-side-url {
+        transform: rotate(-90deg);
+        position: absolute;
+        right: -30em; /* Reducido para pantallas pequeñas */
+        top: 13000em;
+        font-size: 0.001em;
+        max-width: 75em; /* Limita el ancho para que no se desborde */
+        white-space: nowrap;
+    }
+
+    /* Ajuste de la flecha para Flip */
+    .certificate-front-arrow,
+    .certificate-back-arrow {
+        width: 5em; /* Reducido para mejor adaptación */
+        top: 9em;
+        bottom: -100em; /* Ubicación relativa en móviles */
+        right: -2.2em; /* Ajustado para que no quede fuera de la pantalla */
+        max-width: 75em; /* Limita el ancho para que no se desborde */
+    }
+
+    .certificate-back-arrow {
+        left: 10px;
+    }
+
+}
