@@ -23,9 +23,9 @@ Este proyecto consiste en la creación de un certificado en **HTML y CSS**, basa
 
 ## 📸 Vista previa
 
-![](assets/frente.png)
+![](assets/frente.jpg)
 
-![](assets/dorso.png)
+![](assets/dorso.jpg)
 
 ## 🛠 Uso & Interacciones
 
