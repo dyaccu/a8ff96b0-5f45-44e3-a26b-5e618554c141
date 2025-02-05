@@ -10,7 +10,6 @@ Este proyecto consiste en la creación de un certificado en **HTML y CSS**, basa
 
 - **HTML5** para la estructura del certificado.
 - **CSS3** para el diseño y la presentación.
-- **(Opcional: JavaScript)** si se ha utilizado alguna funcionalidad interactiva.
 
 ## 📂 Estructura del Proyecto
 
@@ -24,17 +23,20 @@ Este proyecto consiste en la creación de un certificado en **HTML y CSS**, basa
 
 ## 📸 Vista previa
 
-(Adjuntar aquí una imagen del certificado generado)
+![](assets/frente.png)
 
-## 🛠 Instalación y uso
+![](assets/dorso.png)
 
-1. Clonar este repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/7DaysOfCode-Certificado.git
+## 🛠 Uso & Interacciones
+
+1. Visitar este repositorio:
    ```
-2. Abrir el archivo `index.html` en el navegador.
-3. Modificar el contenido según sea necesario.
+   https://github.com/dyaccu/a8ff96b0-5f45-44e3-a26b-5e618554c141
+   ```
+2. Ver el frente el Certificado
+3. Interactuar con la página haciendo clic en la flecha ---> para ver el dorso del Certificado
+4. Ver el Certificado formal.
 
 ## 📄 Licencia
 
-Este proyecto es de uso libre. Puedes modificarlo y adaptarlo según tus necesidades.
+Este proyecto es de uso libre. Puedes modificarlo y adaptarlo según tus necesidades. No es un certificado OFICIAL.
