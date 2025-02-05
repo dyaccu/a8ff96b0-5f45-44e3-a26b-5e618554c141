@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+    position: relative;
+    background: #f8fafd;
+}
+
+/* Contenedor del Flip */
+.flip-container {
+    width: 800px;
+    height: 680px;
+    perspective: 1000px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.flip-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+/* Cuando se activa flip, gira */
+.flip-container.flipped .flip-inner {
+    transform: rotateY(180deg);
+}
+
+/* Caras del flip */
+.flip-front, .flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-front img, .flip-back img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Imagen trasera */
+.flip-back {
+    transform: rotateY(180deg);
+}
+
+/* Botón Certificado Formal */
+.options-footer {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.buttonLink {
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid #d1daf8;
+    cursor: pointer;
+    border-radius: 2em;
+    padding: 0.5em 2em;
+    display: inline-block;
+    color: #051933;
+    background: white;
+}
+
+.buttonLink:hover {
+    background: #051933;
+    color: white;
+}
+
+/* URL Github */
+.github-front-side-url {
+    position: absolute;
+    left: 200px;
+    top: 265px;
+    font-size: 10px;
+    color: transparent;
+}
+
+/* URL Vertical */
+.certificate-front-side-url {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -95px;
+    top: 140px;
+    white-space: nowrap;
+    color: #6f6c6a;
+    font-size: 6px;
+}
+
+.certificate-front-side-url:hover {
+    color: #051933;
+}
+
+/* Flecha Flip (Frontal) */
+.certificate-front-arrow {
+    position: absolute;
+    right: -40px;
+    top: 350px;
+    width: 90px;
+    cursor: pointer;
+}
+
+/* Flecha Flip (Trasera) */
+.certificate-back-arrow {
+    position: absolute;
+    left: 30px;
+    top: 510px;
+    width: 90px;
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damián Yaccuzzi - Curso Practicando Lógica de Programación: Challenge 7 Days of Code - Alura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="flip-container">
+        <div class="flip-inner">
+            <!-- Primera Imagen (Frontal) -->
+            <div class="flip-front">
+                <img src="/assets/frente.jpg" alt="Certificado de Finalización">
+
+                <!-- URL Github -->
+                <a href="https://github.com/dyaccu" class="github-front-side-url">github dyaccu</a>
+                
+                <!-- Botón debajo -->
+                <div class="options-footer">
+                    <a href="formal.html" class="buttonLink">Certificado formal</a>
+                </div>
+
+                <!-- URL Vertical -->
+                <a href="index.html" class="certificate-front-side-url">https//appaluracursoscom/certificate/a8ff96b0-5f45-44e3-a26b-5e618554c141</a>
+
+                <!-- Flecha para Flip -->
+                <svg class="flip-card certificate-front-arrow" onclick="flipCard()" viewBox="0 0 150 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 12h59.203M46.703 1l12 11-12 12.5" stroke="#051933" stroke-width="2"></path>
+                </svg>
+            </div>
+
+            <!-- Segunda Imagen (Trasera) -->
+            <div class="flip-back">
+                <img src="/assets/dorso.jpg" alt="Certificado Formal">
+
+                <!-- Botón debajo -->
+                <div class="options-footer">
+                    <a href="formal.html" class="buttonLink">Certificado formal</a>
+                </div>
+
+                <!-- Flecha para Volver -->
+                <svg class="flip-card certificate-back-arrow" onclick="flipCard()" viewBox="0 0 150 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M60.203 12H1M13.5 1l-12 11 12 12.5" stroke="#051933" stroke-width="2"></path>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function flipCard() {
+            document.querySelector('.flip-container').classList.toggle('flipped');
+        }
+    </script>
+
+</body>
+</html>
