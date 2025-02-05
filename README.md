@@ -1,4 +1,4 @@
-# 7DaysOfCode - Certificado
+# 7DaysOfCode - Creación del Certificado
 
 Este repositorio contiene el código fuente de la creación del certificado del challenge **7DaysOfCode**. 
 
